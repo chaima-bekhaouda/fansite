@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<header>
+    <h1>Fashion World</h1>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<body>
+
+    <form class="contact">
+        <h1>Contact us</h1>
+        <label for="civilite">Civilité :</label>
+        <select id="civilite" name="civilite">
+            <option value="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+            <option value="Mademoiselle">Mademoiselle</option>
+        </select>
+
+        <br><br>
+
+        <label for="nom">Nom et prénom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <br><br>
+
+        <label for="adresse">Adresse mail :</label>
+        <input type="text" id="adresse" name="adresse" required>
+
+        <br><br>
+
+        <label for="confidentialite">Politiques de confidentialité :</label>
+        <input type="checkbox" id="confidentialite" name="confidentialite" required>
+
+        <br><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+<footer>
+    <p>&copy; Made by heart</p>
+</footer>
+
+</html>
